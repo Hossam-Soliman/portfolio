@@ -1,0 +1,165 @@
+
+
+.contact{
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    
+  }
+  
+  .contact .contact-form{
+    margin: 72px 158px;
+    width: 100%;  
+    
+    
+  }
+  
+  .contact-form form{
+    animation: animform 1.3s ease forwards; 
+    width: 440px;    
+  }
+  
+  @keyframes animform{
+    0%{opacity: 0; transform:translateY(200px)}
+    100%{opacity: 1; transform-origin: top;}
+  }
+  
+  
+  .contact-form h1{
+    color: #08fdd8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    width: 420px;
+    animation: title 1.5s ease-out forwards;
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+
+  @keyframes title{
+    from {transform: translateY(-300px)}
+    to {transform-origin: top;}
+  }
+  
+  .contact-form h1 span{
+    display: inline-block;
+  }
+  
+  .contact-form h1 span:hover{
+    animation: letter 0.6s ease-out forwards;
+  }
+  
+  @keyframes letter{
+    0%{transform: scale(1.2, 0.7);}
+    40%{transform: scale(1.2, 0.7);}
+    60%{transform: scale(0.8, 1.2);}
+    80%{transform: scale(1.2, 0.7);}
+    100%{transform: scale(1, 1);}  
+  }
+  
+  .contact-form p{
+    font-size: 13px;;
+    color:#fff;
+    line-height: 18px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    margin-bottom: 35px;
+    width: 420px;
+  
+  }
+  
+  
+  
+  
+  .contact .contact-form input{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #2b2b2b;
+    height: 40px;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding: 0 20px;
+    border:0;
+    outline-color: #08fdd8;
+   
+  }
+  
+  .contact .contact-form textarea{
+    width:100%;
+    height: 130px;
+    background: #2b2b2b;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding: 10px 20px;
+    border:0;
+    outline-color: #08fdd8;
+  
+  }
+  
+  .contact .contact-form  button{
+      color: #08fdd8;
+      font-size: 11px;
+      background-color: #1d1d1d;
+      letter-spacing: 2px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      width: 55px;
+      text-align: center;
+      padding: 5px 9px;
+      border: 1px solid #08fdd8;
+      border-radius: 5%;
+      margin: 12px 375px;
+      cursor: pointer;
+      transition: 0.3s;         
+  }
+  
+  
+  
+  .contact .contact-form  button:hover{
+    color: #1d1d1d;
+    background-color: #08fdd8;
+  
+  }
+  
+  .contact .Map{
+    width: 100%;   
+    margin-right: 0;
+    position: relative;
+  }
+  
+  .card{
+    position: absolute;
+    width: 190px;
+    height: 100px;
+    color: #fff;
+    background: #000;
+    top: 60px;
+    right: 350px;
+    line-height: 3px;
+    font-size: 13px;
+    padding: 10px;
+    padding-top: 15px;
+    z-index: 4;
+    font-family: "Open Sans","Helvetica",Arial,sans-serif;
+    animation: card 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+
+  @keyframes card{
+    from {transform:translateY(200px);}
+    to{transform: translateY(transform-origin); opacity: 1;}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
