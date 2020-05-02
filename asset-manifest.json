@@ -1,12 +1,13 @@
 {
-  "main.css": "static/css/main.9259d42a.css",
-  "main.css.map": "static/css/main.9259d42a.css.map",
-  "main.js": "static/js/main.034c4e06.js",
-  "main.js.map": "static/js/main.034c4e06.js.map",
+  "main.css": "static/css/main.9319bc29.css",
+  "main.css.map": "static/css/main.9319bc29.css.map",
+  "main.js": "static/js/main.3ab7ca7f.js",
+  "main.js.map": "static/js/main.3ab7ca7f.js.map",
   "static\\media\\css.png": "static/media/css.fbe9b31b.png",
   "static\\media\\dynamic.png": "static/media/dynamic.08d41435.png",
   "static\\media\\fast.png": "static/media/fast.66f539fb.png",
   "static\\media\\fb.png": "static/media/fb.a7b509ee.png",
+  "static\\media\\git.png": "static/media/git.8fe708e8.png",
   "static\\media\\hossam.jpg": "static/media/hossam.96b01e08.jpg",
   "static\\media\\intuitive.png": "static/media/intuitive.fe741b53.png",
   "static\\media\\lnk.png": "static/media/lnk.a08f59f4.png",
@@ -31,6 +32,5 @@
   "static\\media\\pin1.png": "static/media/pin1.ce5ced67.png",
   "static\\media\\react.png": "static/media/react.a1c6111d.png",
   "static\\media\\responsive.png": "static/media/responsive.9eaf437a.png",
-  "static\\media\\second.png": "static/media/second.2888eef4.png",
-  "static\\media\\twitter.png": "static/media/twitter.cee9f349.png"
+  "static\\media\\second.png": "static/media/second.2888eef4.png"
 }
