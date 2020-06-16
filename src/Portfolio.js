@@ -21,13 +21,13 @@ import pic15 from './img/pic15.jpg'
 
 
 const Skills = () => {
-
+  
    useEffect(() => {
       const lightbox = document.createElement('div')
       lightbox.id = 'lightbox'
       document.body.appendChild(lightbox)
       
-      const images = document.querySelectorAll('img')
+      const images =  document.querySelectorAll('.grid img')
       images.forEach(image => {
         image.addEventListener('click', e => {
           lightbox.classList.add('active')
@@ -40,8 +40,7 @@ const Skills = () => {
         })
       })
       
-      lightbox.addEventListener('click', e => {                    //e.target is the element that triggered the event (e.g., the user clicked on)        
-                                                                  // e.currentTarget is the element that the event listener is attached to (lightbox)
+      lightbox.addEventListener('click', e => {                    //e.target is the element that triggered the event (e.g., the user clicked on)  // e.currentTarget is the element that the event listener is attached to (lightbox)
         if (e.target !== e.currentTarget) return
         lightbox.classList.remove('active')
       })

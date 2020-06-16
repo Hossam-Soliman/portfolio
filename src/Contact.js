@@ -9,22 +9,21 @@ const Contact = ({google}) => {
     
     useEffect(() => {
         document.getElementById('newSpan').innerHTML = document.getElementById('newSpan').textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+     
       });
 
-      const handleName = (e) =>{
-        localStorage.setItem ('name', e.target.value) 
-      }
+    //   const handleName = (e) =>{
+    //     localStorage.setItem ('name', e.target.value) 
+    //   }
 
 
       const sendEmail = (e) =>{
         const timer = setTimeout(() => {
-        window.location.href = '/contact-success'
+        window.location.href = '/resume'
         }, 2000);
         return () => clearTimeout(timer);
       }
-
-
-
+      
     return ( 
         <div className="contact">
             <div className="row">
@@ -32,7 +31,7 @@ const Contact = ({google}) => {
                     <h1 id = "newSpan">Contact me</h1>
                     <p>Have a question or want to work together? don’t hesitate to contact me using below form.</p>
                     <form id = "gform" method="POST" action="https://script.google.com/macros/s/AKfycbyc0trOSRTPZykGyUg0lXrXxdWjWNwuc-DQZZcp/exec">    
-                        <input onChange={handleName} autoComplete="off" className="name" name="name" type="text" placeholder="Name" required></input>
+                        <input autoComplete="off" className="name" name="name" type="text" placeholder="Name" required></input>
                         <input autoComplete="off" className="email" name="email" type="email" placeholder="Email" required></input>
                         <input  autoComplete="off" className="subject" type="text" placeholder="Subject"></input>
                         <textarea className="textarea" name="message" type="text" placeholder="Message"></textarea>

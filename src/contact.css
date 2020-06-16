@@ -129,7 +129,8 @@
     margin-right: 0;
     position: relative;
   }
-  
+
+
   .card{
     position: absolute;
     width: 190px;
@@ -154,6 +155,36 @@
     to{transform: translateY(transform-origin); opacity: 1;}
   }
   
+  
+  @media screen and (max-width: 1300px){
+
+    .contact .Map{
+      width: 500px;
+      height: 400px;
+      margin-left: 100px;
+    }
+    .card{
+      position: sticky;
+      margin-top: 100px
+    }
+  }
+
+  @media screen and (max-width: 1200px){
+
+    .card{
+      position: sticky;
+      margin-top: 100px
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+
+    .card{
+      position: sticky;
+      margin-top: 100px;
+      height: 200px;
+    }
+  }
   
   
   
