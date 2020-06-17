@@ -66,5 +66,5 @@ const Contact = ({google}) => {
 }
  
 export default GoogleApiWrapper({
-    apiKey: 'AIzaSyDsNpUbIakdm64k-GWrjZLnXODm97CypF0'
+    apiKey: ':P'
   }) (Contact);
